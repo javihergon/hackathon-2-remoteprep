@@ -1,0 +1,275 @@
+<!--//WEDNESDAY, 6/29/16 - SATURDAY, 7/2/16
+//SECTION #4
+//(#2)WEB STORE HACKATHON
+//PAIR- VOLKAN, JAVIER & MAUREEN
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>BookM-a-thon & Music-a-thon</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#bookstore">Book-a-thon</a>
+                <a class="navbar-brand" href="#musicstore">Music-a-thon</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#bookstore">Books on Sale</a>
+                    </li>
+                    <li>
+                        <a href="#musicstore">Music on Sale</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="bookstore">
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-3">
+                <p>Welcome to the Book-a-thon Store!</p>
+            </div>
+            <div class="col-md-9">
+                <div class="row carousel-holder">
+                    <div class="col-md-12">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="slide-image" img src="http://bit.ly/29a93s7" alt="books">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="http://bit.ly/29bO89Q" alt="books">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="http://bit.ly/29jcdxw" alt="books">
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="http://bit.ly/29dblrw" alt="book">
+                            <div class="caption">
+                                <h4 class="pull-right"><div id = "price1"></div></h4>
+                                <h4><div id ="title1"></title1></h4>
+                                <div id="selling1"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="http://bit.ly/29g5SRZ" alt="book">
+                            <div class="caption">
+                                <h4 class="pull-right"><div id = "price2"></div></h4>
+                                <h4><div id ="title2"></title1></h4>
+                                <div id="selling2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="http://bit.ly/29ArruR" alt="book">
+                            <div class="caption">
+                                <h4 class="pull-right"><div id = "price3"></div></h4>
+                                <h4><div id ="title3"></title1></h4>
+                                <div id="selling3"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="http://bit.ly/29nNfem" alt="book">
+                            <div class="caption">
+                                <h4 class="pull-right"><div id = "price4"></div></h4>
+                                <h4><div id ="title4"></title1></h4>
+                                <div id="selling4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="musicstore">
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-3">
+                <p>Welcome to the Music-a-thon Store!</p>
+            </div>
+            <div class="col-md-9">
+                <div class="row carousel-holder">
+                    <div class="col-md-12">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="slide-image" img src="http://bit.ly/29d5RiG" alt="music">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="http://bit.ly/29jgFv1" alt="music">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="http://bit.ly/299y4XQ" alt="music">
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-lg-4 col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://bit.ly/29joDFY" alt="music">
+                        <div class="caption">
+                            <h4 class="pull-right"><div id = "price5"></div></h4>
+                            <h4><div id ="title5"></title1></h4>
+                            <div id="selling5"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-lg-4 col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://bit.ly/29ahvYj" alt="music">
+                        <div class="caption">
+                            <h4 class="pull-right"><div id = "price6"></div></h4>
+                            <h4><div id ="title6"></title1></h4>
+                            <div id="selling6"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <hr>
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p align="center"><strong>Copyright &copy; Javi, V & Mau 2016</strong></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+    var book1 = {
+        name: "Da Vinci Code",
+        category: "Science Fiction",
+        price: "$20",
+        picture: "http://bit.ly/29dblrw",
+        listOfSellingPoints: ["interesting", " thriller", " innovative", " historical "]
+    }
+    $('#title1').append('<p>' + book1['name'] + '</p>');
+    $('#price1').append(book1['price']);
+    $('#selling1').append('<p>' + 'Genre: ' + book1['category'] + '</p>' + 'Selling Points: ' + book1['listOfSellingPoints'] + '</p>');
+
+    var book2 = {
+        name: "The Girl With the Dragon Tattoo",
+        category: "Thriller",
+        price: "$25",
+        picture: "http://bit.ly/29g5SRZ",
+        listOfSellingPoints: ["exciting", " suspenseful"]
+    }
+    $('#title2').append('<p>' + book2['name'] + '</p>');
+    $('#price2').append(book2['price']);
+    $('#selling2').append('<p>' + 'Genre: ' + book2['category'] + '</p>' + 'Selling Points: ' + book2['listOfSellingPoints'] + '</p>');
+
+    var book3 = {
+        name: "The Games",
+        category: "Mystery",
+        price: "$28",
+        picture: "http://bit.ly/29ArruR",
+        listOfSellingPoints: ["exciting", " suspense", " science-fiction"]
+    }
+    $('#title3').append('<p>' + book3['name'] + '</p>');
+    $('#price3').append(book3['price']);
+    $('#selling3').append('<p>' + 'Genre: ' + book3['category'] + '</p>' + 'Selling Points: ' + book3['listOfSellingPoints'] + '</p>');
+
+    var book4 = {
+        name: "Where the Red Fern Grows",
+        category: "Fiction",
+        price: "$19",
+        picture: "http://bit.ly/29nNfem",
+        listOfSellingPoints: [" exciting", " emotional", " drama"]
+    }
+    $('#title4').append('<p>' + book4['name'] + '</p>');
+    $('#price4').append(book4['price']);
+    $('#selling4').append('<p>' + 'Genre: ' + book4['category'] + '</p>' + 'Selling Points: ' + book4['listOfSellingPoints'] + '</p>');
+
+    var album1 = {
+        name: "25 by Adele",
+        category: "Pop/Soul",
+        price: "$20",
+        picture: "http://bit.ly/29joDFY",
+        listOfSellingPoints: ["singer", " passionate", " love songs"]
+    }
+    $('#title5').append('<p>' + album1['name'] + '</p>');
+    $('#price5').append(album1['price']);
+    $('#selling5').append('<p>' + 'Genre: ' + album1['category'] + '</p>' + 'Selling Points: ' + album1['listOfSellingPoints'] + '</p>');
+
+    var album2 = {
+        name: "Thriller by Michael Jackson",
+        category: "Pop",
+        price: "$25",
+        picture: "http://bit.ly/29ahvYj",
+        listOfSellingPoints: ["classic", " king of pop"]
+    }
+
+    $('#title6').append('<p>' + album2['name'] + '</p>');
+    $('#price6').append(album2['price']);
+    $('#selling6').append('<p>' + 'Genre: ' + album2['category'] + '</p>' + 'Selling Points: ' + album2['listOfSellingPoints'] + '</p>');
+
+    /*work on implementing this later:
+    $('#contents').click(function() {
+        $(this).removeClass('bookstore');
+        $(this).addClass('musicstore');
+    });*/
+    </script>
+</body>
+<!--https://github.com/BlackrockDigital/startbootstrap-shop-homepage-->

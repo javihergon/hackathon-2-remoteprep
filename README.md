@@ -1,0 +1,7 @@
+//WEDNESDAY, 6/29/16 - SATURDAY, 7/2/16
+//SECTION #4
+//(#2)WEB STORE HACKATHON
+//PAIR- VOLKAN, JAVIER & MAUREEN
+
+
+Hack Reactor's Remote Prep Web Store Hackathon
